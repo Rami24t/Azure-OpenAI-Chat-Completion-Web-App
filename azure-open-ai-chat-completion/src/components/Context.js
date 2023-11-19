@@ -20,12 +20,14 @@ export default function ContextProvider({ children }) {
           ...state,
           chatHistory: [...state.chatHistory, action.payload],
           loading: false,
+          awaitingResponse: true,
         };
       case "RECEIVE_MESSAGE_SUCCESS":
         return {
           ...state,
           chatHistory: [...state.chatHistory, action.payload],
           loading: false,
+          awaitingResponse: false,
         };
       default:
         return state;
