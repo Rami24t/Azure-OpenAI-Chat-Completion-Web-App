@@ -53,7 +53,7 @@ function App() {
             </div>
           </div>
         </section>
-        <Paragraph />
+        <Paragraph title={"OpenAI Chat"} text={"OpenAI Chat Completion is a service that generates dynamic responses to user messages. It can be used to power chatbots, conversational agents, and dialogue systems."} />
       </main>
       <Footer />
     </>
