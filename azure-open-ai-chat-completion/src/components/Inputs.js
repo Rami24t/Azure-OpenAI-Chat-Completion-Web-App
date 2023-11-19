@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Inputs = ({sendQuery}) => {
+const Inputs = ({ sendQuery }) => {
   const [systemMessage, setSystemMessage] = useState(
     "You are a helpful assistant."
   );
@@ -28,7 +28,8 @@ const Inputs = ({sendQuery}) => {
           onChange={(e) => setUserPrompt(e.target.value)}
         />
         <button
-        onClick={()=>sendQuery(systemMessage, userPrompt)}
+          title="Send"
+          onClick={() => sendQuery(systemMessage, userPrompt)}
         >
           <div className="greater-symbol">&#62;</div>
         </button>
