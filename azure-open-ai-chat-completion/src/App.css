@@ -427,7 +427,7 @@ button {
 .greater-symbol {
   font-size: 1rem;
   font-weight: 700;
-  transform: scaleY(1.5) scaleX(0.77);
+  transform: scaleY(1.4) scaleX(0.77);
   text-align: center;
   overflow: hidden;
   text-rendering: geometricPrecision;
@@ -602,9 +602,9 @@ input[type="radio"]:checked+label::before {
     font-size: 12.4vw;
   }
 
-  .screen {
-    /* transform: scale(0.98) scaleX(0.99); */
-  }
+  /* .screen {
+    transform: scale(0.98) scaleX(0.99);
+  } */
 }
 
 /* chat animations */
