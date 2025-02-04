@@ -3,7 +3,8 @@ export function PhoneHeader() {
     <div className="less-than">&lt;</div>
     <div className="avatar">
       <img
-        src="https://source.unsplash.com/random/50x50?AI"
+//        src="https://source.unsplash.com/random/50x50?AI"
+          src= `url("https://image.pollinations.ai/prompt/profile-photo?width=200&height=200&nologo=true&model=turbo")`
         alt="Avatar" />
     </div>
     <div>
